@@ -9,8 +9,8 @@ public class WeiboCrawlerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(WeiboCrawlerApplication.class, args);
-//        Auth auth = new Auth();
-//        auth.login();
+        Auth auth = new Auth();
+        auth.login();
 
 
     }
