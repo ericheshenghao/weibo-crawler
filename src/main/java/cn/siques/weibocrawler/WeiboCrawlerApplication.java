@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class WeiboCrawlerApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(WeiboCrawlerApplication.class, args);
         Auth auth = new Auth();
-        auth.login();
+        auth.start();
 
 
     }
